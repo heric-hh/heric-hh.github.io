@@ -1,0 +1,220 @@
+/* VARIABLES */
+body {
+  display: flex;
+  background: #1D1D1D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar-contenedor {
+  background: #181818;
+  width: 7rem;
+  height: 100vh;
+  position: fixed;
+}
+.navbar-contenedor .foto-perfil {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.navbar-contenedor h3 {
+  background: #000;
+  color: #FFF;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  text-align: center;
+}
+.navbar-contenedor h4 {
+  background: #000;
+  color: #A5A5A5;
+  margin: 0;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-family: monospace;
+}
+.navbar-contenedor nav {
+  background: #181818;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  font-family: "Roboto Condensed";
+}
+.navbar-contenedor nav .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0;
+  margin: 0;
+}
+.navbar-contenedor nav .nav-item span {
+  color: #A5A5A5;
+}
+.navbar-contenedor nav .nav-item:hover span {
+  color: #05FDD8;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  margin-left: 7rem;
+  background: #1D1D1D;
+}
+main .presentacion {
+  height: 80%;
+}
+main .presentacion .hola {
+  margin: 9rem 5rem;
+  color: #FFF;
+  font-family: "Fira Sans";
+}
+main .presentacion .hola h1, main .presentacion .hola h2, main .presentacion .hola h3 {
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+}
+main .presentacion .hola span {
+  color: #05FDD8;
+}
+main .presentacion .hola p {
+  color: #A5A5A5;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+main .presentacion .hola button {
+  background: none;
+  color: #05FDD8;
+  letter-spacing: 0.2rem;
+  border: 1px solid #05FDD8;
+  margin: 1rem 0;
+  padding: 0.8rem 3rem;
+}
+main .portafolio {
+  background-image: url("../img/bgPort2.png");
+  height: auto;
+}
+main .portafolio-info {
+  color: #FFF;
+  margin: 9rem 5rem 11rem 5rem;
+  font-family: "Fira Sans";
+}
+main .portafolio-info span {
+  color: #05FDD8;
+}
+main .portafolio-info h2 {
+  color: #05FDD8;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  margin: 2rem 0;
+}
+main .portafolio-info .info-veMas {
+  display: flex;
+}
+main .portafolio-info .info-veMas p {
+  width: 60%;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+main .portafolio-info .info-veMas div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+main .portafolio-info .info-veMas div button {
+  color: #FC1EFC;
+  background: none;
+  border: 1px solid #FC1EFC;
+  padding: 1rem 5rem;
+  letter-spacing: 0.2rem;
+}
+main .portafolio .galeria-grid {
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  gap: 16px;
+}
+main .portafolio .galeria-grid img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .contacto {
+  background-image: url("../img/bgCont.png");
+  background-size: cover;
+  height: 100%;
+}
+main .contacto-info {
+  color: #FFF;
+  margin: 9rem 5rem 11rem 5rem;
+  font-family: "Fira Sans";
+}
+main .contacto-info h2 {
+  color: #05FDD8;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  margin: 2rem 0;
+}
+main .contacto-info p {
+  font-size: 1.2rem;
+}
+main .contacto form {
+  margin: 2rem 0;
+  display: flex;
+}
+main .contacto form input {
+  border: none;
+  font-family: "Roboto Condensed";
+  background: #2B2B2B;
+  color: #A5A5A5;
+}
+main .contacto form .form-izq {
+  width: 30%;
+}
+main .contacto form .form-izq #nombre, main .contacto form .form-izq #email {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+main .contacto form .form-der #asunto {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 91%;
+}
+main .contacto form .form-der #mensaje {
+  padding: 1rem;
+  height: 50%;
+  width: 91%;
+}
+main .contacto form .btn-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+main .contacto form .btn-area #enviar {
+  padding: 1rem;
+  background: none;
+  color: #05FDD8;
+  border: 1px solid #05FDD8;
+  letter-spacing: 0.1rem;
+}/*# sourceMappingURL=estilos.css.map */
